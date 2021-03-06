@@ -20,7 +20,7 @@ import pymem
 try:
     p = pymem.Pymem("RainbowSix.exe")
 except:
-    ctypes.windll.user32.MessageBoxA(0, b"Cannot find rocket league, please run rocket league before attempting to use", b"Cannot find rocket league", 0)
+    ctypes.windll.user32.MessageBoxA(0, b"Cannot find RAINBOW, please run RAINBOW before attempting to use", b"Cannot find RAINBOW", 0)
     time.sleep(2)
     exit()
 
